@@ -1,13 +1,13 @@
-var alertBox = (function () {
+var tinyAlert = (function () {
     var TRANSITIONTIME = 300; //动画时间
     var $alert,
         queue = [];
 
     function delayGenerate(cb) {
-        $alert = document.querySelector('.alert-box');
+        $alert = document.querySelector('.tiny-alert');
         if (!$alert) {
             $alert = document.createElement('div');
-            $alert.setAttribute('class', 'alert-box');
+            $alert.setAttribute('class', 'tiny-alert');
             $alert.innerHTML = 'hello world';
             document.querySelector('body').appendChild($alert);
         }

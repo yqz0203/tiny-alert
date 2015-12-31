@@ -1,7 +1,7 @@
 /**
  * Created by yqz on 2015/9/14.
  */
-.alert-box {
+.tiny-alert {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 10px 20px;
@@ -19,7 +19,7 @@
     transform: translate3d(0, 0, 0);
 }
 
-.alert-box.active {
+.tiny-alert.active {
     visibility: visible;
     top: 20px;
     opacity: 1;

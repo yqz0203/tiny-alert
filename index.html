@@ -4,15 +4,17 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
     <title></title>
+    <link href="tiny-alert.css" rel="stylesheet">
+    <script src="tint-alert.js"></script>
 </head>
 <body>
-<div class="alert-box">
+<div class="tiny-alert">
 </div>
 <button id="alert">alert</button>
 <script>
-    var $alert = document.querySelector('.alert-box');
+    var $alert = document.querySelector('.tiny-alert');
     document.querySelector('#alert').addEventListener('click', function () {
-        indx.show('账号名或者密码错误');
+        tinyAlert.show('账号名或者密码错误');
     }, false);
 </script>
 </body>
