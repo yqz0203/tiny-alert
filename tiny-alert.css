@@ -1,0 +1,26 @@
+/**
+ * Created by yqz on 2015/9/14.
+ */
+.alert-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.alert-box.active {
+    visibility: visible;
+    top: 20px;
+    opacity: 1;
+}
