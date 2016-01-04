@@ -1,0 +1,22 @@
+{
+  "name": "tiny-alert",
+  "version": "1.0.0",
+  "description": "a tiny,queued alert window",
+  "main": "tint-alert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yqz0203/tiny-alert.git"
+  },
+  "keywords": [
+    "alert"
+  ],
+  "author": "yqz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yqz0203/tiny-alert/issues"
+  },
+  "homepage": "https://github.com/yqz0203/tiny-alert#readme"
+}
