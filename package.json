@@ -1,6 +1,6 @@
 {
   "name": "tiny-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a tiny,queued alert window",
   "main": "tint-alert.js",
   "scripts": {
