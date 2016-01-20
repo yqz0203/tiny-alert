@@ -5,6 +5,7 @@ an queued, simple alert plugin
 tinyAlert.show('hello world');
 
 #advance options
-text //the message you want to show
-click //click event handler
+text  //the message you want to show
+
+click  //click event handler
 
